@@ -1,0 +1,455 @@
+body
+{
+	background-color: #B5B5B5;
+	font-family: Tahoma;
+	margin: 0px;
+}
+
+#content
+{
+	width: 950px;
+	margin: 0px auto;
+	box-shadow: #000000 0.0em 0.0em 0.5em;
+	background-color: #2F4F4F;
+}
+
+	#content .nonindex
+	{
+		padding: 5px 10px;
+		background-color: #FFFFFF;
+	}
+
+#header
+{
+	padding: 10px;
+	width: auto;
+	background-color: #2F4F4F;
+	
+	font-size: 36px;
+	color: #ffffff;
+	text-shadow: #000000 0.0em 0.0em 0.3em;
+	cursor: default;
+}
+
+.button
+{
+}
+
+#slideshow
+{
+	position: relative;
+	
+}
+
+	#slideshow #btns
+	{
+		display: none;
+		position: absolute;
+		top: 237px;
+	}
+	
+#indextab
+{
+	background-color: #FFEBBD;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+	#indextab .tabl
+	{
+		margin-left: 10px;
+		padding: 2px 10px;
+		color: #ffffff;
+		text-decoration: none;
+		font-size: 20px;
+		text-shadow: #000000 0.0em 0.0em 0.1em;
+	}
+		
+		#indextab .tabday, #detailday
+		{
+			background-color: #FF6F04;
+		}
+		
+			#indextab .tabday:hover
+			{
+				text-shadow: #000000 0.0em 0.0em 0.3em;
+			}
+		
+		#indextab .tabnight, #detailnight
+		{
+			background-color: #005BAE;
+		}
+		
+			#indextab .tabnight:hover
+			{
+				text-shadow: #000000 0.0em 0.0em 0.3em;
+			}
+	
+	#indextab .tabdetail
+	{
+		padding-bottom: 20px;
+	}
+	
+	#indextab .tabdetail table
+	{
+		margin: 0px auto;
+	}
+	
+		#indextab .tabdetail table td
+		{
+			text-align: center;
+		}
+	
+			#indextab .tabdetail .item
+			{
+				color: #ffffff;
+				text-decoration: none;
+			}
+	
+				#indextab .tabdetail .item:hover
+				{
+					text-shadow: #000000 0.0em 0.0em 0.5em;
+				}
+	
+	#indextab .round
+	{
+		border-radius: 90px;
+		margin: 8px 2px 5px 2px;
+		box-shadow: #000000 0.0em 0.0em 0.1em;
+	}
+	
+		#indextab .round:hover
+		{
+			box-shadow: #000000 0.0em 0.0em 0.5em;
+		}
+		
+	#indextab .viewmore
+	{
+		text-align: right;
+		margin: 5px 10px 0px 0px;
+	}
+	
+		#indextab .viewmore a
+		{
+			color: #000000;
+			text-decoration: none;
+			background-color: #C9FB00;
+			padding: 5px 20px;
+			border-radius: 10px;
+			box-shadow: #000000 0.0em 0.0em 0.2em;
+		}
+		
+			#indextab .viewmore a:hover
+			{
+				background-color: #A3FF57;
+			}
+
+.footer
+{
+	text-align: center;
+}
+
+	
+		
+.maps
+{
+	position: relative;
+	margin: 5px 5px;
+	width: 500px;
+	height: 800px;
+}
+
+	.maps .map
+	{
+		position: absolute;
+	}
+	
+	.maps .north
+	{
+		left: 0px; top: 0px;
+	}
+	
+	.maps .east
+	{
+		left: 194px; top: 306px;
+	}
+	
+	.maps .west
+	{
+		left: 26px; top: 146px;
+	}
+	
+	.maps .south
+	{
+		left: 44px; top: 479px;
+	}
+	
+	.maps .center
+	{
+		left: 87px; top: 139px;
+	}
+	
+	.maps .northeast
+	{
+		left: 193px; top: 98px;
+	}
+	
+	.maps .detail
+	{
+		top: 150px; left: 500px;
+		width: 350px;
+		text-align: center;
+	}
+	
+	#mapdetail
+	{
+		display: none;
+		background-color: #ededed;
+		border-radius: 10px;
+	}
+	
+		#mapdetail #regionthumbnails
+		{
+			margin: 10px 0px 20px 0px;
+		}
+		
+			#mapdetail #regionthumbnails img
+			{
+				border-radius: 25px;
+			}
+	
+.button
+{
+	background-color: #FF6A06;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 2px 5px;
+	margin: 3px 2px;
+	border-radius: 5px;
+}
+
+	.button:hover
+	{
+		background-color:#FFAB60;
+	}
+
+
+#trips
+{
+	margin: 20px 0px 0px 50px;
+}
+
+	#trips .tripitem
+	{
+		cursor: default;
+	}
+	
+	#trips .tripitem:hover
+	{
+		background-color: #A8E2FF;
+		border-radius: 10px;
+		box-shadow: #666666 0.0ex 0.0ex 0.58ex;
+	}
+	
+		#trips .tripitem td
+		{
+			vertical-align: top;
+		}
+	
+		#trips .tripitem .tripdetail
+		{
+			padding-left: 15px;
+		}
+		
+			#trips .tripitem .tripdetail .freetrip
+			{
+				color: #4AAE00;
+			}
+			
+			#trips .tripitem .tripdetail .viewmorebtn
+			{
+				text-decoration: none;
+				background-color: #006B9F;
+				color: #ffffff;
+				padding: 3px 10px;
+				border-radius: 5px;
+			}
+			
+				#trips .tripitem .tripdetail .viewmorebtn:hover
+				{
+					background-color: #00527D;
+				}
+	
+		#trips .tripitem .tripthumbnail
+		{
+			border-radius: 90px;
+		}
+		
+.container {
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+.login-box {
+	background-color: white;
+	margin: 0 auto;
+	width: 350px;
+	top: 80px;
+	padding-bottom: 30px;
+	border-radius: 5px;
+	box-shadow: 0 5px 50px rgba(0,0,0,0.4);
+	text-align: center;
+}
+
+.login-box .box-header {
+	color: white;
+	background-color: #2F4F4F;
+	margin-top: 0;
+	border-radius: 5px 5px 0 0;
+}
+
+.login-box label {
+	font-weight: 700;
+	font-size: .8em;
+	color: #888;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	line-height: 2em;
+}
+
+.login-box input {
+	margin-bottom: 20px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	font-size: .9em;
+	color: #888;
+}
+
+.login-box input:focus {
+	outline: none;
+	border-color: #665851;
+	transition: 0.5s;
+	color: #665851;
+}
+
+.login-box button {
+	margin-top: 0px;
+	border: 0;
+	border-radius: 2px;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	background-color: #2F4F4F;
+	cursor:pointer;
+	outline: none;
+}
+
+.login-box button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.login-box button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.selected {
+	color: #665851!important;
+	transition: 0.5s;
+}
+
+/* Animation Delay */
+#logo {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 2s;
+}
+
+.login-box {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+}
+
+.select
+{
+	text-align: right;
+	background-color: #528B8B;
+}
+
+	.select a
+	{
+		color: #000000;
+		text-decoration: underline;
+	}
+	
+		.select a:hover
+		{
+			text-shadow: #000000 0.0em 0.0em 0.1em;
+		}
+.select2
+{
+	text-align: center;
+	background-color: #79CDCD;
+}
+
+	.select2 a
+	{
+		color: #000000;
+		text-decoration: underline;
+	}
+	
+		.select2 a:hover
+		{
+			text-shadow: #000000 0.0em 0.0em 0.1em;
+		}
+		
+* { 
+	margin: 0; 
+	padding: 0; 
+}
+body { 
+	
+}
+#page-wrap {
+	margin: 50px;
+}
+p {
+	margin: 20px 0; 
+}
+
+	
+	table { 
+		width: 100%; 
+		border-collapse: collapse; 
+	}
+	/* Zebra striping */
+
+	th { 
+		background: #333; 
+		color: white; 
+		font-weight: bold; 
+	}
+	td{ 
+		background: #F8F8FF; 
+		color: black; 
+		font-weight: bold; 
+	}
+	#red {  
+		background: #FF7B00; 
+		font-weight: bold; 
+	}
+	#green{  
+		background: #80FF00; 
+		font-weight: bold; 
+	}
+	td, th { 
+		padding: 6px; 
+		border: 1px solid #000000; 
+		text-align: left; 
+	}

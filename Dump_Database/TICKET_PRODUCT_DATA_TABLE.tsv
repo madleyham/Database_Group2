@@ -1,0 +1,4 @@
+"NO_TRAIN"	"TYPE"	"STATION_BT"	"PRODUCT"	"WEIGHT"	"NAME1"	"NAME2"	"TEL"	"PRICE"	"DAY"	"MONTH"	"YEAR"
+"2"	"B"	"BC"	"abc"	"200"	"aa"	"bb"	"1234"	"2000"	"1"	"JAN"	"2015"
+"2"	"B"	"BC"	"test"	"800"	"test"	"test"	"123"	"8000"	"1"	"JAN"	"2015"
+"3"	"B"	"BC"	"dsd"	"10000"	"dsd"	"dsds"	"123"	"100000"	"1"	"JAN"	"2015"

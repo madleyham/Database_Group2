@@ -1,0 +1,22 @@
+--------------------------------------------------------
+--  File created - ÇÑ¹¾ÄËÑÊº´Õ-¸Ñ¹ÇÒ¤Á-17-2558   
+--------------------------------------------------------
+@C:\Users\Asus\TABLES.sql
+--@C:\Users\Asus\STATION_DATA_TABLE.tsv
+--@C:\Users\Asus\TPYE_TRAIN_DATA_TABLE.tsv
+--@C:\Users\Asus\TIME_TRAIN_DATA_TABLE.tsv
+--@C:\Users\Asus\TRAIN_DATA_TABLE.tsv
+--@C:\Users\Asus\AA_EXPEND_DATA_TABLE.tsv
+--@C:\Users\Asus\TICKET_PRODUCT_DATA_TABLE.tsv
+--@C:\Users\Asus\AA_TIGKET_DATA_TABLE.tsv
+--@C:\Users\Asus\TICKET_TRAIN_DATA_TABLE.tsv
+--@C:\Users\Asus\STATION_BETWEEN_DATA_TABLE.tsv
+--@C:\Users\Asus\BOGIE_DATA_TABLE.tsv
+--@C:\Users\Asus\DATE_TRAIN_DATA_TABLE.tsv
+--@C:\Users\Asus\MGR_LOGIN_DATA_TABLE.tsv
+--@C:\Users\Asus\SEAT_DATA_TABLE.tsv
+--@C:\Users\Asus\SEAT_PRODUCT_DATA_TABLE.tsv
+--@C:\Users\Asus\SELLER_LOGIN_DATA_TABLE.tsv
+@C:\Users\Asus\INDEXES.sql
+@C:\Users\Asus\CONSTRAINTS.sql
+@C:\Users\Asus\REF_CONSTRAINTS.sql
